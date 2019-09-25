@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEBE795D233B61530075BF15 /* Innopod.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBE795B233B61530075BF15 /* Innopod.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEBE7964233B617A0075BF15 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE7963233B617A0075BF15 /* Service.swift */; };
+		CE5567BA233B72BD00B1F17E /* InnoPod.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5567B8233B72BD00B1F17E /* InnoPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE5567C1233B72DD00B1F17E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5567C0233B72DD00B1F17E /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CEBE7958233B61530075BF15 /* Innopod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Innopod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEBE795B233B61530075BF15 /* Innopod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Innopod.h; sourceTree = "<group>"; };
-		CEBE795C233B61530075BF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEBE7963233B617A0075BF15 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		CE5567B5233B72BD00B1F17E /* InnoPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InnoPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5567B8233B72BD00B1F17E /* InnoPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InnoPod.h; sourceTree = "<group>"; };
+		CE5567B9233B72BD00B1F17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5567C0233B72DD00B1F17E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CEBE7955233B61530075BF15 /* Frameworks */ = {
+		CE5567B2233B72BD00B1F17E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,98 +29,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CEBE794E233B61530075BF15 = {
+		CE5567AB233B72BD00B1F17E = {
 			isa = PBXGroup;
 			children = (
-				CEBE795A233B61530075BF15 /* Innopod */,
-				CEBE7959233B61530075BF15 /* Products */,
+				CE5567B7233B72BD00B1F17E /* InnoPod */,
+				CE5567B6233B72BD00B1F17E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CEBE7959233B61530075BF15 /* Products */ = {
+		CE5567B6233B72BD00B1F17E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEBE7958233B61530075BF15 /* Innopod.framework */,
+				CE5567B5233B72BD00B1F17E /* InnoPod.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEBE795A233B61530075BF15 /* Innopod */ = {
+		CE5567B7233B72BD00B1F17E /* InnoPod */ = {
 			isa = PBXGroup;
 			children = (
-				CEBE795B233B61530075BF15 /* Innopod.h */,
-				CEBE795C233B61530075BF15 /* Info.plist */,
-				CEBE7963233B617A0075BF15 /* Service.swift */,
+				CE5567B8233B72BD00B1F17E /* InnoPod.h */,
+				CE5567B9233B72BD00B1F17E /* Info.plist */,
+				CE5567C0233B72DD00B1F17E /* Service.swift */,
 			);
-			path = Innopod;
+			path = InnoPod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CEBE7953233B61530075BF15 /* Headers */ = {
+		CE5567B0233B72BD00B1F17E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBE795D233B61530075BF15 /* Innopod.h in Headers */,
+				CE5567BA233B72BD00B1F17E /* InnoPod.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CEBE7957233B61530075BF15 /* Innopod */ = {
+		CE5567B4233B72BD00B1F17E /* InnoPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEBE7960233B61530075BF15 /* Build configuration list for PBXNativeTarget "Innopod" */;
+			buildConfigurationList = CE5567BD233B72BD00B1F17E /* Build configuration list for PBXNativeTarget "InnoPod" */;
 			buildPhases = (
-				CEBE7953233B61530075BF15 /* Headers */,
-				CEBE7954233B61530075BF15 /* Sources */,
-				CEBE7955233B61530075BF15 /* Frameworks */,
-				CEBE7956233B61530075BF15 /* Resources */,
+				CE5567B0233B72BD00B1F17E /* Headers */,
+				CE5567B1233B72BD00B1F17E /* Sources */,
+				CE5567B2233B72BD00B1F17E /* Frameworks */,
+				CE5567B3233B72BD00B1F17E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Innopod;
-			productName = Innopod;
-			productReference = CEBE7958233B61530075BF15 /* Innopod.framework */;
+			name = InnoPod;
+			productName = InnoPod;
+			productReference = CE5567B5233B72BD00B1F17E /* InnoPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CEBE794F233B61530075BF15 /* Project object */ = {
+		CE5567AC233B72BD00B1F17E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = Vueling;
 				TargetAttributes = {
-					CEBE7957233B61530075BF15 = {
+					CE5567B4233B72BD00B1F17E = {
 						CreatedOnToolsVersion = 10.3;
 						LastSwiftMigration = 1030;
 					};
 				};
 			};
-			buildConfigurationList = CEBE7952233B61530075BF15 /* Build configuration list for PBXProject "Innopod" */;
+			buildConfigurationList = CE5567AF233B72BD00B1F17E /* Build configuration list for PBXProject "InnoPod" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CEBE794E233B61530075BF15;
-			productRefGroup = CEBE7959233B61530075BF15 /* Products */;
+			mainGroup = CE5567AB233B72BD00B1F17E;
+			productRefGroup = CE5567B6233B72BD00B1F17E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEBE7957233B61530075BF15 /* Innopod */,
+				CE5567B4233B72BD00B1F17E /* InnoPod */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CEBE7956233B61530075BF15 /* Resources */ = {
+		CE5567B3233B72BD00B1F17E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,18 +130,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CEBE7954233B61530075BF15 /* Sources */ = {
+		CE5567B1233B72BD00B1F17E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBE7964233B617A0075BF15 /* Service.swift in Sources */,
+				CE5567C1233B72DD00B1F17E /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CEBE795E233B61530075BF15 /* Debug */ = {
+		CE5567BB233B72BD00B1F17E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		CEBE795F233B61530075BF15 /* Release */ = {
+		CE5567BC233B72BD00B1F17E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +263,7 @@
 			};
 			name = Release;
 		};
-		CEBE7961233B61530075BF15 /* Debug */ = {
+		CE5567BE233B72BD00B1F17E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -274,14 +274,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Innopod/Info.plist;
+				INFOPLIST_FILE = InnoPod/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vy.Innopod;
+				PRODUCT_BUNDLE_IDENTIFIER = vy.InnoPod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -290,7 +290,7 @@
 			};
 			name = Debug;
 		};
-		CEBE7962233B61530075BF15 /* Release */ = {
+		CE5567BF233B72BD00B1F17E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -301,14 +301,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Innopod/Info.plist;
+				INFOPLIST_FILE = InnoPod/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vy.Innopod;
+				PRODUCT_BUNDLE_IDENTIFIER = vy.InnoPod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEBE7952233B61530075BF15 /* Build configuration list for PBXProject "Innopod" */ = {
+		CE5567AF233B72BD00B1F17E /* Build configuration list for PBXProject "InnoPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEBE795E233B61530075BF15 /* Debug */,
-				CEBE795F233B61530075BF15 /* Release */,
+				CE5567BB233B72BD00B1F17E /* Debug */,
+				CE5567BC233B72BD00B1F17E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEBE7960233B61530075BF15 /* Build configuration list for PBXNativeTarget "Innopod" */ = {
+		CE5567BD233B72BD00B1F17E /* Build configuration list for PBXNativeTarget "InnoPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEBE7961233B61530075BF15 /* Debug */,
-				CEBE7962233B61530075BF15 /* Release */,
+				CE5567BE233B72BD00B1F17E /* Debug */,
+				CE5567BF233B72BD00B1F17E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CEBE794F233B61530075BF15 /* Project object */;
+	rootObject = CE5567AC233B72BD00B1F17E /* Project object */;
 }
